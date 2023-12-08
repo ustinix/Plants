@@ -1,0 +1,1189 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+/* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inika-700 - latin */
+  @font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* inter-100 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+         url('./fonts/inter-v12-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-200 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('./fonts/inter-v12-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-300 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('./fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-800 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('./fonts/inter-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('./fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html {box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: Inter, Inika;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 1,2;
+    font-weight: normal;
+    color: black;
+}
+
+img{
+    max-height: auto;
+}
+
+/*Header styles start*/
+
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: #EDF2EC;
+}
+
+.nav-list{
+    min-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-item{
+    padding-bottom: 5px;
+}
+
+.nav-item:hover, .nav-item:focus{
+    opacity: .65;
+}
+
+.logo-link:hover, .logo-link:focus{
+    opacity: .65;
+}
+
+.learnmore:hover, .learnmore:focus{
+    opacity: .65;
+}
+
+.nav-link, .logo-link {
+    font-family: Inika;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: black;  
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.colorred{
+    color: #E06733;
+}
+
+.logo{
+    padding-top: 5px;
+}
+
+.header_burger{
+    display: none;
+    width: 40px;
+    height: 23px;
+    position: relative;
+}
+
+.burger_line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #717171;
+    position: absolute;
+    left: 0;
+}
+
+.burger_line_first{
+    top: 0;
+}
+
+.burger_line_second{
+    top:42%;
+    transform: translateY(-50%);
+}
+
+.burger_line_third{
+    top:66%;
+}
+
+.burger_line_fourth{
+    bottom: -2px;
+}
+
+/*Header styles end*/
+
+/*Welcome styles start*/
+
+.welcome{
+    padding-top: 186px;
+    padding-right: 109px;
+    padding-left: 101px;
+    padding-bottom: 72px;
+}
+
+.leafs{
+    float: left;
+    padding-right: 220px;
+}
+
+.grow{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    padding-top: 46px;
+   }
+
+.colorgreen{
+    color: #499A18;  
+}
+
+.lorem{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060; 
+    margin-bottom: 59px;
+}
+
+.textwelcome{
+    max-width: 1220px;
+    height: 408px;
+}
+
+.h1grow{
+    padding-bottom: 44px;
+}
+
+.learnmore{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000; 
+    padding: 10px 26px;
+    background-color: #EDF2EC;
+    border-color: #E06733;
+    border-width: 2px 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.welcome{
+    background-color: #EDF2EC;   
+    }
+/*Welcome styles end*/
+
+/*about styles start*/
+
+.about{
+    background-color: #FFFFFF;
+}
+
+.aboutus{
+margin-bottom: 116px;
+}
+
+.professional{
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #499A18; 
+    padding-top: 161px;
+    padding-bottom: 40px;
+    padding-left: 109px;
+    max-width: 605px;
+    height: 102px;
+}
+
+.aboutprofessional{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060; 
+    padding-top: 102px;
+    padding-bottom: 40px;
+    padding-left: 109px;
+    max-width: 704px;
+    height: 350px;
+}
+
+.houseplant{
+    float: right;
+    padding-right: 109px;
+    padding-top: 93px;
+    padding-bottom: 134px;
+}
+
+/*about styles end*/
+
+/*service styles start*/
+
+.aboutservice{
+    height: 94px;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #499A18; 
+    padding-left: 109px;
+    display: inline-flex;
+    margin-bottom: 28px;
+}
+
+.service{
+    background-color: #EDF2EC; 
+}
+
+.gardens{
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+    color: #E06733; 
+    background-color: #EDF2EC;
+    border-color: #E06733;
+    border-width: 1px 1px;
+    border-style: solid;
+    border-radius: 6px;
+    margin-left: 28px;
+    width: 161px;
+    height: 50px;
+}
+
+.gardens:hover, .gardens:focus{
+    opacity: .65;
+}
+
+.buttongroup{
+    margin-left: 114px;
+    margin-top: 20px;
+}
+
+.h2service{
+    max-width: 306px;
+}
+
+.projects{
+    max-width: 1222px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 47px;
+    margin-top: 58px;
+    padding-bottom: 18px;
+}
+
+.projectname{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733; 
+    padding-top: 9px;
+    text-align: center;
+}
+
+.aboutproject{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    padding-top: 14px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.project1,.project2 {
+    background-color: #EDF2EC;
+    border: #E3E1D5 1px solid;
+    border-radius: 20px;
+}
+
+.project1 {
+    margin-bottom: 56px;
+    padding-right: 2px;
+}
+
+.project2 {
+    margin-bottom: 100px;
+}
+
+
+/*service styles end*/
+
+/*prices styles start*/
+
+.prices{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;  
+}
+
+.pricesr{
+    padding-top: 37px;
+    padding-left: 109px;
+}
+
+.pricesl{
+    width: 600px;
+}
+
+.aboutprices{
+    text-align: right;
+    padding-top: 37px;
+    padding-bottom: 41px;
+    padding-right: 109px;
+}
+
+.select{
+    width: 332px;
+    height: 282px;
+    padding-top: 15px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-bottom: 21px;
+    margin-top: 60px;
+    margin-bottom: 68px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: #E3E1D5 1px solid;
+    border-radius: 20px;  
+}
+
+.option{
+    width: 250px;
+    height: 50px;
+    background-color: #EDF2EC;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000; 
+    border: 0px;
+    border-radius: 20px;
+    border-right: #EDF2EC 40px solid;
+    appearance: none;
+    background: url('./assets/accordion_btn.png') no-repeat right;
+    background-color: #EDF2EC;
+}
+
+.contactus{
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.06px;
+    color: #E06733; 
+    background-color:#FFFFFF;
+    border-color: #E06733;
+    border-width: 1px 1px;
+    border-style: solid;
+    border-radius: 6px;
+    width: 161px;
+    height: 50px;
+    float: right;
+    margin-right: 109px;
+    margin-bottom: 31px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.contactus:hover, .contactus:focus{
+    opacity: .65;
+}
+
+.blockprices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leafs1{
+   margin-left: auto; 
+   margin-right: -9px;
+}
+
+.buttonimg{
+    display: grid;
+    width: 100%;
+    padding-right: 109px;
+}
+
+/*prices styles end*/
+
+/*contacts styles start*/
+
+.contacts{
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #499A18; 
+    text-align: center;
+    padding-top: 60px;
+}
+
+.blockcontacts{
+    background-color: #EDF2EC;
+    display: grid;
+    grid-template-columns: 0px auto 0px;
+    
+}
+
+.women{
+    padding-top: 53px;
+    padding-left: 109px;
+}
+
+.optioncity{
+    appearance: none;
+    width: 450px;
+    height: 50px;
+    background-color: #D6E7D2;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #717171; 
+    border: #000000 0px solid;
+    border-right: #D6E7D2 40px solid;
+    background: url('./assets/accordion_btn_contact.png') no-repeat right;
+    background-color: #D6E7D2; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    float: right;
+    margin-top: 36px;
+    box-shadow: 0px 5px 5px 0px #AEA1A1;
+    margin-right: 106px;
+}
+
+/*contacts styles end*/
+
+/*footer styles start*/
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.githab{
+    width: 171px;
+    height: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 109px;
+}
+
+.rs{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000; 
+    padding-left: 16px;
+}
+
+.social-list{
+    width: 187px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 109px;
+}
+
+.twitter{
+    padding-top: 5px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+/*footer styles end*/
+
+/*Media styles start*/
+
+@media screen and (max-width: 768px)  {
+
+    .leafs {
+        float: right;
+        padding-right: 0px;
+        padding-top: 40px;
+        padding-left: 25px;
+    }
+
+    .houseplant {
+        float: none;
+        padding-right: 0px;
+    }
+
+    .aboutservice {
+        display: inline-block;
+    }
+
+    .welcome {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 124px;
+        padding-bottom: 18px;
+    }
+
+    .optioncity {
+        margin-right: 157px;
+        margin-top: 99px;
+    }
+
+    .header-wrapper{
+        padding-right: 52px;
+        padding-left: 49px;
+    }
+
+    .nav-list{
+        padding-top: 7px;
+    }
+
+    .grow {
+        font-size: 35px;
+    }
+
+    .lorem {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .professional{
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45.61px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-left: 162px;
+
+    }
+    
+    .aboutservice{
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45.61px;
+        padding-top: 58px;
+        padding-left: 50px;
+    }
+
+    .prices{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42.36px; 
+    }
+
+    .aboutprices{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px; 
+        text-align: right;
+        padding-top: 137px;
+        padding-bottom: 28px;
+        padding-right: 50px;
+    }
+
+    .textwelcome{
+        margin: 0 50px;
+    }
+
+    .h1grow {
+        padding-bottom: 32px;
+    }
+
+    .h1grow2{
+        padding-left: 5px;
+    }
+
+    .lorem {
+        margin-bottom: 47px;
+    }
+
+    .houseplant {
+        float:none;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display:block;
+        margin:auto;
+    }
+
+    .aboutus {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 95px;
+    }
+
+    .houseplant {order: 3; } /* Отобразится третьим */
+    .professional {order: 2; } /* Отобразится вторым  */
+    .aboutprofessional {order: 1; } /* Отобразится первым  */
+        
+    .aboutprofessional {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 51px;
+        height: 328px;
+    }
+
+    .buttongroup {
+        margin-left: -28px;
+        margin-top: 43px;
+    }
+
+    .projects {
+        margin-left: 48px;
+        margin-top: 55px;
+        padding-bottom: 33px;
+    }
+
+    .project1 {
+        margin-bottom: 34px;
+    }
+
+    .project2 {
+        margin-bottom: 35px;
+    }
+
+    .aboutproject {
+        width: 266px;
+        padding-top: 8px;
+        padding-bottom: 21px;
+        padding-left: 15px;
+    }
+
+    .projectname {
+        margin-bottom: 2px;
+    }
+
+    .pricesr {
+        padding-left: 50px;
+    }
+    
+    .select {
+        height: 284px;
+        padding-top: 20px;
+        padding-right: 33px;
+        padding-left: 41px;
+        padding-bottom: 21px;
+        margin-top: 56px;
+        margin-bottom: 112px;
+    }
+
+    .pricename{
+        padding-left: 14px;
+    }
+    
+    .blockprices {
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+    }
+
+    .buttonimg {
+        padding-right: 50px;
+    }
+
+    .leafs1 {
+        margin-left: 180px;
+    }
+
+    .contacts {
+        padding-top: 45px;
+    }
+
+    .blockcontacts {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .women {
+        padding-top: 250px;
+        padding-left: 20px;
+        margin-bottom: -11px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .githab {
+        margin-left: 297px;
+        padding-top: 9px;
+    }
+
+    .rs {
+        padding-left: 0px;
+    }
+
+    .social-list {
+        margin-left: 291px;
+    }
+}
+
+@media screen and (max-width: 380px)  {
+    .header_burger{
+        display: inline-block;
+    }
+
+    .nav-list{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #EDF2EC;
+        z-index: 10;
+        padding: 50px;
+        transform: translateX(100%);
+        transition: .2s all linear;
+    }
+
+    .nav-list_active{
+        transform: translateX(0);
+    }
+
+    .nav-item{
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .nav-link{
+    font-size: 42px;
+    line-height: 48px;
+    }
+
+    .header_nav_close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+        display: none;
+    }
+
+    .header_nav-close-line{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color:#000000;
+        position: absolute;
+        top: 50%;
+    }
+
+    .header_nav-close-line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .header_nav-close-line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .leafs {
+        float: none;
+        padding-right: 0px;
+    }
+
+    .houseplant {
+        float: none;
+        padding-right: 0px;
+    }
+
+    .aboutservice {
+        display: inline-block;
+    }
+
+    .welcome {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .optioncity {
+        margin-right: 0px;
+        margin-top: 71px;
+        width: 300px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        float: none;
+        border-right: #D6E7D2 21px solid;
+    }
+
+    .header-wrapper{
+        display: inline-block;
+        padding-right: 219px;
+        padding-left: 24px;
+    }
+
+    .grow {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .lorem {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 32px;
+    }
+
+    .professional{
+        font-size: 25px;
+        line-height: 32.57px;
+        padding-left: 3px;
+        padding-top: 30px;
+    }
+
+    .learnmore{
+        font-size: 10px;
+        line-height: 20px;
+        padding: 9px 16px;
+        margin-left: 5px;
+    }
+    
+    .aboutprofessional{
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 7px;
+        padding-bottom: 40px;
+        padding-left: 25px;
+        height: 234px;
+        width: 354px;
+    }
+
+    .aboutservice{
+        font-size: 25px;
+        line-height: 32.57px;
+        padding-top: 28px;
+        padding-left: 25px;
+        width: 302px;
+    }
+
+    .gardens{
+        font-size: 15px;
+        line-height: 19.54px;
+        width: 121px;
+        height: 35px;
+        margin-bottom: 6px;
+        margin-right: -25px;
+    }
+
+    .buttongroup {
+        margin-top: 38px;
+    }
+
+    .projects {
+        margin-left: 49px;
+        margin-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .project2 {
+        margin-bottom: 34px;
+    }
+
+    .aboutproject {
+        padding-bottom: 17px;
+    }
+
+    .prices{
+        font-size: 25px;
+        line-height: 30.26px; 
+    }
+
+    .pricesr {
+        padding-top: 19px;
+        padding-left: 79px;
+    }
+
+    .select {
+        height: 236px;
+        width: 224px;
+        padding-top: 23px;
+        padding-right: 33px;
+        padding-left: 21px;
+        padding-bottom: 21px;
+        margin-top: 36px;
+        margin-bottom: 18px;
+    }
+
+    .pricename {
+        padding-left: 73px;
+    }
+
+    .option{
+        font-size: 15px;
+        line-height: 20px;
+        width: 180px;
+        padding-left: 30px;
+        padding-top: 14px;
+    }
+    
+    .aboutprices{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 21px;
+        padding-right: 50px;
+        padding-left: 63px;
+    }
+
+    .pricesl {
+        width: 370px;
+    }
+
+    .blockprices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactus{
+        font-size: 15px;
+        line-height: 19,54px;
+        width: 121px;
+        height: 35px;
+        margin-right: 109px;
+        margin-bottom: 22px;
+        margin-left: 129px;
+        margin-right: 0;
+    }
+
+    .contacts{
+        font-size: 25px;
+        line-height: 32,57px;
+        padding-top: 17px;
+        margin-left: -1px;
+    }
+
+    .githab{
+        font-size: 20px;
+        line-height: 24,2px;
+    }
+
+    .rs{
+        font-size: 20px;
+        line-height: 24,2px;
+    }
+
+    .social{
+        font-size: 20px;
+        line-height: 24,2px;
+    }
+
+    .leafs{
+        display: none;
+    }
+
+    .leafs1{
+        display: none; 
+    }
+
+    .houseplant {
+        width:150px; /* you can use % */
+        height: 152px;
+    }
+
+    .women{
+        width: 100px;
+        padding-top: 131px;
+        padding-left: 0px;
+        margin-bottom: -11px;
+    }
+    
+    .textwelcome {
+    margin: -28px 20px;
+    height: 330px;
+    }
+
+    .h1grow {
+        padding-left: 6px;
+        padding-bottom: 21px;
+    }
+    
+    .aboutus {
+        margin-bottom: 29px;
+    }
+
+    .footer {
+        padding-top: 4px;
+        text-align: left;
+        padding-bottom: 0px;
+    }
+
+    .githab {
+        margin-left: 102px;
+        padding-top: 0px;
+        height: 40px;
+    }
+
+    .rs {
+        padding-left: 85px;
+    }
+
+    .social-list {
+        padding-top: 0px;
+        margin-right: 0px;
+        margin-left: 95px;
+    }
+}
+
+/*Media styles end*/
